@@ -6,7 +6,7 @@ import View from "../view/View.js";
 class Controller {
   constructor() {
     const MODEL = new Model(LISTA,KULCSLISTA);
-    const VIEW = new View("article")
+    const VIEW = new View(MODEL.getList(),$("article"),MODEL.getKulcs())
     
   }
 }
