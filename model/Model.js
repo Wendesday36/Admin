@@ -2,8 +2,8 @@ import { LISTA } from "../adat.js";
 import { KULCSLISTA } from "../adat.js";
 
 class Model {
-  #lista = [];
-  #kulcs=[]
+  #lista = {};
+  #kulcs={}
 
   constructor() {
     this.#lista = LISTA;
